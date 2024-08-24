@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Password Generator</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="nav">
+			<h2>xyz Password</h2>
+			<p>Light</p>
+		</div>
+		<div class="contant">
+				
+			<div class="generated-password">
+				<div class="password">
+					<p>Generate Password</p>
+					<input type="text"  id="password" placeholder="Password">
+					<button>Copy</button>
+					<div>
+						<div class="lenth">
+							<p>Password Lenght</p>
+							<p>10</p>
+						</div>
+						<div class="slider">
+							<input type="range" min="1" max="15" value="4">
+						</div>
+						<div class="check-box">
+							<div>
+								<input type="checkbox" checked>
+								<label for="">Include Number</label>
+							</div>
+							<div>
+								<input type="checkbox">
+								<label for="">Include Uppercase</label>
+							</div>
+							<div>
+								<input type="checkbox">
+								<label for="">Include Lowercase</label>
+							</div>
+							<div>
+								<input type="checkbox">
+								<label for="">Include Symbol</label>
+							</div>
+						</div>
+						<div class="strength">
+							<p>Strength</p>
+							<div class="strenth-indicator"></div>
+						</div>
+						<button>Generate Password</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="saved-password">
+				
+			</div>
+		</div>
+		<div class="footer">
+			<p>All right reserve</p>
+		</div>
+	</div>
+
+	<script src="main.js"></script>
+</body>
+</html>
