@@ -16,16 +16,16 @@
 				
 			<div class="generated-password">
 				<div class="password">
-					<p>Generate Password</p>
-					<input type="text"  id="password" placeholder="Password">
-					<button>Copy</button>
+					<p class="title">Generate Password</p>
+					<input type="text" disabled id="password" placeholder="Password">
+					<button id="copy">Copy</button>
 					<div>
-						<div class="lenth">
+						<div class="length">
 							<p>Password Lenght</p>
-							<p>10</p>
+							<p class="length-indicator"></p>
 						</div>
 						<div class="slider">
-							<input type="range" min="1" max="15" value="4">
+							<input type="range" id="range" min="1" max="15" value="4">
 						</div>
 						<div class="check-box">
 							<div>
@@ -47,9 +47,9 @@
 						</div>
 						<div class="strength">
 							<p>Strength</p>
-							<div class="strenth-indicator"></div>
+							<div class="strenth-indicator">weak</div>
 						</div>
-						<button>Generate Password</button>
+						<button id="generate-password">Generate Password</button>
 					</div>
 				</div>
 			</div>

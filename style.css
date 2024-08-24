@@ -32,7 +32,69 @@
 	background-color: rgb(27, 25, 25);
 	height: 100%;
 	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
+
+.password{
+	background-color: red;
+	padding: 1rem ;
+	margin: 1rem;
+}
+.title{
+	font-size: 2rem;
+	font-weight: 600;
+	padding: 1rem auto;
+	margin-bottom: 2rem;
+	text-align: center;
+}
+#password{
+	padding: 0.5rem;
+	font-size: 1rem;
+	background-color: white;
+	margin: 1rem auto;
+}
+
+#password::placeholder{
+	color: black;
+	font-size: 1rem;
+}
+
+#copy{
+	padding: 0.5rem;
+	font-size: 1rem;
+}
+
+.length{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 1rem auto;
+}
+#range{
+	width: 100%;
+}
+
+.check-box{
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.strength{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 1rem auto;
+}
+
+.password #generate-password{
+	width: 100%;
+	padding: 1rem;
+	font-size: 1rem;
+}
+
 
 .saved-password{
 	background-color: rgb(46, 42, 42);
